@@ -1,7 +1,6 @@
-import { FaDesktop, FaRetweet } from 'react-icons/fa';
+import { FaArrowCircleDown, FaArrowCircleUp, FaDesktop, FaRetweet } from 'react-icons/fa';
 import anemation from '../../assets/about2.json'
 import Lottie from "lottie-react";
-import { FaArrowUp,FaArrowDown } from "react-icons/fa";
 import { Link } from 'react-scroll';
 
 const About = () => {
@@ -36,9 +35,9 @@ const About = () => {
                 </div>
             </div>
             {/* for arraw */}
-            <div className='text-4xl primary-color fixed top-72 right-4 flex flex-col gap-8 cursor-pointer z-20'>
-            <Link to="home" spy={true} activeClass="secondary-color" smooth={true} offset={50} duration={500}><FaArrowUp /></Link>
-            <Link to="footer" spy={true} activeClass="secondary-color" smooth={true} offset={50} duration={500} ><FaArrowDown /></Link>
+            <div className='text-2xl md:text-4xl primary-color fixed top-72 right-4 flex flex-col gap-8 cursor-pointer z-20'>
+            <Link to="home" spy={true} activeClass="secondary-color" smooth={true} offset={50} duration={500}><FaArrowCircleUp /></Link>
+            <Link to="footer" spy={true} activeClass="secondary-color" smooth={true} offset={50} duration={500} ><FaArrowCircleDown /></Link>
             
             </div>
         </section>
