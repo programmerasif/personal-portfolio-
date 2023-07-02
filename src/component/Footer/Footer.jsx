@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 
 const Footer = () => {
     return (
-        <section className=' text-white bg-gray-950'>
+        <section className=' text-white bg-gray-950' id='footer'>
             <div className='flex flex-col md:flex-row  gap-3 justify-around items-center p-6'>
                 <div className='flex justify-center items-center'>
                     <img src={logo} alt="" className='w-12'/>

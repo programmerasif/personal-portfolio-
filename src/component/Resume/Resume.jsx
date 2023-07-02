@@ -13,7 +13,7 @@ const Resume = () => {
     return (
         <section className='mb-40'>
             <div>
-            <h5 className="text-white text-5xl font-bold text-center">
+            <h5 className="text-white text-3xl md:text-5xl font-bold text-center">
                My Resume
                 </h5>
                 <span className='text-white flex justify-center'>
