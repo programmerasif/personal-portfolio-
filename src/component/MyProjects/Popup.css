@@ -1,0 +1,45 @@
+.modal {
+    font-size: 12px;
+    background-color: rgb(33, 32, 32);
+    padding: 25px;
+    border-radius: 20px;
+    color: white;
+    
+   
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 30px 15px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+    
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: 0;
+    left: 15px;
+    top: 0;
+    font-size: 24px;
+   
+    border: 1px solid #cfcece;
+    left: 0;
+    width: 4rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+  }
