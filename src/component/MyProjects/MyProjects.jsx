@@ -46,10 +46,30 @@ const MyProjects = () => {
                 recipe of the food.
                 '
                 />
-                <Card img={project4} title='Ai Univers-Hub' subtitle={"Front-End"} count={4} />
+                <Card img={project4} title='Ai Univers-Hub' subtitle={"Row Javascript"} count={4} description='Ai univers-Hub is a website where everyone can visite and get the information about Ai and its feauter and also it is free or not.'
+                git='https://ph-assignmenttt.netlify.app/'
+                live='https://github.com/programmerasif/Ai-info_hub/tree/main/project'
+                featurOne='User-friendly and dynamic design users can access all the things very easily.'
+                featurTwo='User can get all the information about the new Ai that launch commercially'
+                featurThree='Using shorting methode thats why user can understand which Ai is publist befor'/>
 
-                <Card img={project5} title='Charear Jobs' subtitle={"Front-End"} count={5} />
-                <Card img={project1} count={6} />
+                <Card img={project5} title='Charear Jobs' subtitle={"Front-End"} count={5} git='https://job-hub-tawny.vercel.app/' live='https://github.com/programmerasif/Job-hub'
+                description='This is a kind of job Hiring website[Demo] where user canget the information about job circular for any company. '
+                featurOne='after reading the circular, user can apply for his favourite post'
+                featurTwo='User can see how many jobs the applyed in before .'
+                featurThree='In all job section there is a shorting option and using shorting user can see which jobs he applyed before.'/>
+                <Card img={project1} title='Summer-vision' subtitle={"MERN Stack"} count={1} featurOne='The system effectively integrates multiple payment methods via Stripe and also ensures database security through JWT authentication Clint' 
+                featurTwo='Separate dashboards for students, instructors, and administrators, enabling streamlined management and access control.'
+                
+                featurThree='In dashboards, students can choose and purchase classes, instructors can add classes, and administrators can control everything including user management and class.'
+                
+                live='https://github.com/programmerasif/Summer-vision'
+                
+                git='https://summer-vision.web.app/?fbclid=IwAR10jnvnzss5K_4utBll-F9LypKqDEQKs5rmZoryrdnkvHjHZ_J7EwyruF0'
+                description='Summervision is a website where students can select their favorite sports and buy their selected courses
+                to get training from their favorite trainers.
+                '
+                />
             </div>
         </section>
     );

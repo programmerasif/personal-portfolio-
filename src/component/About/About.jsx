@@ -1,10 +1,12 @@
 import { FaDesktop, FaRetweet } from 'react-icons/fa';
 import anemation from '../../assets/about2.json'
 import Lottie from "lottie-react";
+import { FaArrowUp,FaArrowDown } from "react-icons/fa";
+import { Link } from 'react-scroll';
 
 const About = () => {
     return (
-        <section className="mt-40 mb-40 px-5" id='about'>
+        <section className="mt-40 mb-40 px-5 relative" id='about'>
             <div className='flex flex-col md:md:flex-row  text-white'>
                 <div className='md:w-[60%] sm:w-full'>
                     <h5 className="text-5xl font-bold mb-8">About me</h5>
@@ -32,6 +34,12 @@ const About = () => {
                     <Lottie animationData={anemation} loop={true} />
                     </div>
                 </div>
+            </div>
+            {/* for arraw */}
+            <div className='text-4xl primary-color fixed top-72 right-4 flex flex-col gap-8 cursor-pointer z-20'>
+            <Link to="home" spy={true} activeClass="secondary-color" smooth={true} offset={50} duration={500}><FaArrowUp /></Link>
+            <Link to="work" spy={true} activeClass="secondary-color" smooth={true} offset={50} duration={500} ><FaArrowDown /></Link>
+            
             </div>
         </section>
     );

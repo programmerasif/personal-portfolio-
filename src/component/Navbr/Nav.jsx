@@ -58,12 +58,12 @@ const Nav = () => {
         
       </div>
       <ul className={`text-white md:hidden z-40 duration-500 fixed w-44 bg-gray-950  p-3 rounded text-center ${!isOpen ? ' top-16 ml-52 z-10' :' -top-72 '} `}>
-      <Link to="home" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500}><li className='cursor-pointer'>Home</li></Link>
-                    <Link to="about" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer'>About</li></Link>
-                    <Link to="work" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer'>Works</li></Link>
-                    <Link to="contac" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer'>Contact</li></Link>
-                    <Link  spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} > <li className='cursor-pointer'>Blog</li></Link>
-                    <li className='cursor-pointer'><a href="/Resume of Asif.pdf" download>Rresume </a></li>
+      <Link to="home" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500}><li className='cursor-pointer border-t-4 border-[#67DB52] py-2'>Home</li></Link>
+                    <Link to="about" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2'>About</li></Link>
+                    <Link to="work" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2'>Works</li></Link>
+                    <Link to="contac" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2'>Contact</li></Link>
+                    <Link  spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} > <li className='cursor-pointer border-t-4  border-[#67DB52] py-2'>Blog</li></Link>
+                    <li className='cursor-pointer border-t-4 border-b-4 border-[#67DB52] py-2'><a href="/Resume of Asif.pdf" download>Rresume </a></li>
       </ul>
         </>
     );

@@ -33,11 +33,13 @@ const Card = ({ img, title, count, subtitle, featurOne,featurTwo,featurThree,liv
                                                     {description}
                                                 </div>
                                                 
-                                                <p className="flex justify-center items-center gap-3"> <span className="text-2xl"><FaHandPointRight /></span> {featurOne}</p>
+                                               <div className="flex flex-col justify-center items-start">
+                                               <p className="flex justify-center items-center gap-3"> <span className="text-2xl"><FaHandPointRight /></span> {featurOne}</p>
                                                 <br />
                                                 <p className=" flex justify-center items-center gap-3"><span className="text-2xl"> <FaHandPointRight /></span> {featurTwo}</p>
                                                 <br />
                                                 <p className="mb-5 flex justify-center items-center gap-3"> <span className="text-2xl"><FaHandPointRight /></span> {featurThree}</p>
+                                               </div>
                                                 <div className="mt-8 flex justify-between items-center">
                                                     <div className="flex gap-5 text-blue-600 font-bold cursor-pointer">
                                                         <a href={git}>Live Link</a>
