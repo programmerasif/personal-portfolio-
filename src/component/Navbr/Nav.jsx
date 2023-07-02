@@ -3,6 +3,7 @@ import logo from '../../assets/logo.png'
 import { FaBars} from "react-icons/fa";
 import { FaXmark} from "react-icons/fa6";
 import { Link } from 'react-scroll'
+import { FaHome,FaClipboard,FaBriefcase,FaUserFriends,FaFolderOpen,FaDochub } from "react-icons/fa";
 
 const Nav = () => {
     const [isOpen,setOpen] = useState(true)
@@ -58,12 +59,12 @@ const Nav = () => {
         
       </div>
       <ul className={`text-white md:hidden z-40 duration-500 fixed w-44 bg-gray-950  p-3 rounded text-center ${!isOpen ? ' top-16 ml-52 z-10' :' -top-72 '} `}>
-      <Link to="home" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500}><li className='cursor-pointer border-t-4 border-[#67DB52] py-2'>Home</li></Link>
-                    <Link to="about" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2'>About</li></Link>
-                    <Link to="work" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2'>Works</li></Link>
-                    <Link to="contac" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2'>Contact</li></Link>
-                    <Link  spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} > <li className='cursor-pointer border-t-4  border-[#67DB52] py-2'>Blog</li></Link>
-                    <li className='cursor-pointer border-t-4 border-b-4 border-[#67DB52] py-2'><a href="/Resume of Asif.pdf" target='_blank' download>Rresume </a></li>
+      <Link to="home" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500}><li className='cursor-pointer border-t-4 border-[#67DB52] py-2 flex justify-start items-center gap-3'><FaHome /> Home</li></Link>
+                    <Link to="about" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2 flex justify-start items-center gap-3'><FaClipboard /> About</li></Link>
+                    <Link to="work" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2 flex justify-start items-center gap-3'><FaBriefcase /> Works</li></Link>
+                    <Link to="contac" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2 flex justify-start items-center gap-3'><FaUserFriends /> Contact</li></Link>
+                    <Link  spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} > <li className='cursor-pointer border-t-4  border-[#67DB52] py-2 flex justify-start items-center gap-3'><FaFolderOpen /> Blog</li></Link>
+                    <li className='cursor-pointer border-t-4 border-b-4 border-[#67DB52] py-2'><a href="/Resume of Asif.pdf" target='_blank' download className='flex justify-start items-center gap-3'><FaDochub /> Rresume </a></li>
       </ul>
         </>
     );

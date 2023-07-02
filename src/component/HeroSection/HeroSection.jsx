@@ -38,7 +38,7 @@ const HeroSection = () => {
                         <div className='font-bold flex flex-col text-center'>
                             <div className='flex gap-14'>
                             <div className='flex items-end'><span className='text-6xl font-bold'>1</span> <span className='text-start'>Year of  <br />Experience</span></div>
-                            <div className='flex items-end'><span className='text-6xl font-bold'>17</span> <span className='text-start'>Complite <br />Project</span></div>
+                            <div className='flex items-end'><span className='text-6xl font-bold'>17</span> <span className='text-start'>Complete <br />Project</span></div>
                             </div>
                             </div>
                         <div className='font-bold flex flex-col text-center mt-5'>

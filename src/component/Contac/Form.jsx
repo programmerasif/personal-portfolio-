@@ -20,10 +20,10 @@ const Form = () => {
   
     return (
       <form ref={form} onSubmit={sendEmail} className="w-full md:w-[60%] mx-auto text-black">
-        <input placeholder="Wright your name" name="name" className="w-full mb-4 px-4 py-2 rounded-md border border-sky-500"/>
+        <input placeholder="Write your name" name="name" className="w-full mb-4 px-4 py-2 rounded-md border border-sky-500"/>
         <input  placeholder="Enter your email" name="email" className="w-full mb-4 px-4 py-2 rounded-md border border-sky-500"/>
         
-        <textarea  placeholder="message" name="message" className="w-full mb-4 px-4 py-2 rounded-md border border-sky-500"/>
+        <textarea  placeholder="Type your message" name="message" className="w-full mb-4 px-4 py-2 rounded-md border border-sky-500"/>
         <input disabled={isComplite} type="Submit" value='Send' className="w-full px-4 py-2 text-white rounded-md border border-sky-200 bg-[#67DB00] hover:bg-[#66db00a7] border-none duration-300"/>
       </form>
     );

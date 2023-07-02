@@ -24,7 +24,7 @@ const About = () => {
                         <h5 className='flex justify-start items-center gap-4'> <span className='text-white text-4xl'><FaRetweet /></span> Back-end</h5>
                             <span>
                                 <p>
-                                Experienced backend web developer proficient in Node.js, Express.js, and MongoDB. Strong in server-side logic, RESTful APIs, and collaboration with frontend teams. Committed to delivering efficient and scalable solutions..</p>
+                                I am also experienced backend web developer proficient in Node.js, Express.js, and MongoDB. Strong in server-side logic, RESTful APIs, and collaboration with frontend teams. Committed to delivering efficient and scalable solutions..</p>
                             </span>
                         </div>
                     </div>
