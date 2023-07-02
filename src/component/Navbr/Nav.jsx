@@ -33,7 +33,7 @@ const Nav = () => {
                     <Link to="work" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer'>Works</li></Link>
                     <Link to="contac" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer'>Contact</li></Link>
                     <Link  spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} > <li className='cursor-pointer'>Blog</li></Link>
-                    <li className='cursor-pointer'><a href="/Resume of Asif.pdf" download>Rresume </a></li>
+                    <li className='cursor-pointer'><a href="/Resume of Asif's.pdf" target='_blank' download>Rresume </a></li>
                 </ul>
             </div>
         </div>
@@ -64,7 +64,7 @@ const Nav = () => {
                     <Link to="work" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2 flex justify-start items-center gap-3'><FaBriefcase /> Works</li></Link>
                     <Link to="contac" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer border-t-4 border-[#67DB52] py-2 flex justify-start items-center gap-3'><FaUserFriends /> Contact</li></Link>
                     <Link  spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} > <li className='cursor-pointer border-t-4  border-[#67DB52] py-2 flex justify-start items-center gap-3'><FaFolderOpen /> Blog</li></Link>
-                    <li className='cursor-pointer border-t-4 border-b-4 border-[#67DB52] py-2'><a href="/Resume of Asif.pdf" target='_blank' download className='flex justify-start items-center gap-3'><FaDochub /> Rresume </a></li>
+                    <li className='cursor-pointer border-t-4 border-b-4 border-[#67DB52] py-2'><a href="/Resume of Asif's.pdf" target='_blank' download className='flex justify-start items-center gap-3'><FaDochub /> Rresume </a></li>
       </ul>
         </>
     );
