@@ -11,7 +11,6 @@ const Nav = () => {
     const handelclick = () =>{
         setOpen(!isOpen)
     }
-    console.log(isOpen);
     return (
         <>
         {/* desktop */}

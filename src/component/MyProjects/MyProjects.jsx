@@ -41,7 +41,7 @@ const MyProjects = () => {
 
                 featurThree='Added a feature, that a user can add their favorite chef’s recipe to the bookmark section to buy.'
                 live='https://github.com/programmerasif/Korian-Food-Bank/tree/main/ph-assignment10'
-                git='https://assignment10-e21db.web.app/'
+                git='https://assignment10-e21db.web.app'
                 description='Korean-Food-Bank is a restaurant website where customers can buy their favorite food and also get the
                 recipe of the food.
                 '
