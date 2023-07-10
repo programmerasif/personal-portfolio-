@@ -31,7 +31,7 @@ const MyProjects = () => {
                 
                 featurThree='I have implemented searching and shorting options into  “ All car ” pages.'
                 live='https://github.com/programmerasif/Toy-cars-Hub/tree/main/Assignment11'
-                git='https://assignment-11-5a444.web.app/?fbclid=IwAR2WE7pahcLv2_s2Tu1MTW9IfcE4bx7B8hlLp6f7gmRLuJSMVthkGvXSkcA'
+                git='https://toy-car-hub.vercel.app/'
                 description='Toy-Carhub is a Toy selling website where a customer can buy or get information about a product. Also,
                 a seller can add a product with details, quantity, and description.'
                 />
