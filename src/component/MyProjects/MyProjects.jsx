@@ -30,7 +30,7 @@ const MyProjects = () => {
                 featurTwo='The user can add, update and delete all the products individually if he or she wants.'
                 
                 featurThree='I have implemented searching and shorting options into  “ All car ” pages.'
-                live='https://github.com/programmerasif/Toy-cars-Hub/tree/main/Assignment11'
+                live='https://github.com/programmerasif/Toy-Car-Hub'
                 git='https://toy-car-hub.vercel.app/'
                 description='Toy-Carhub is a Toy selling website where a customer can buy or get information about a product. Also,
                 a seller can add a product with details, quantity, and description.'
