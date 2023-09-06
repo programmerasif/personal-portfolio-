@@ -11,7 +11,7 @@ const MyProjects = () => {
     return (
         <section className='mb-40' id='work'>
             <h5 className="text-3xl md:text-5xl text-white font-bold text-center mb-12">Some of my Project</h5>
-            <div className='grid md:grid-cols-3 grid-cols-1 justify-center gap-5'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 justify-center gap-5'>
                 <Card img={project1} title='Summer-vision' subtitle={"MERN Stack"} count={1} featurOne='The system effectively integrates multiple payment methods via Stripe and also ensures database security through JWT authentication Clint' 
                 featurTwo='Separate dashboards for students, instructors, and administrators, enabling streamlined management and access control.'
                 

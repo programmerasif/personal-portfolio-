@@ -9,7 +9,7 @@ const Card = ({ img, title, count, subtitle, featurOne,featurTwo,featurThree,liv
         <section>
             <div className="flex justify-center items-center text-white text-center">
                 <div>
-                    <span className="text-white flex justify-start items-center text-xl md:text-2xl mb-5">{count}. {title} <span className="primary-color text-sm ms-4">[{subtitle}]</span></span>
+                    <span className="text-white flex justify-start items-center text-xl lg:text-2xl mb-5">{count}. {title} <span className="primary-color text-sm ms-4">[{subtitle}]</span></span>
                     <div className="relative group">
                         <img src={img} alt="" className="rounded-md" style={{ width: '100%', height: '200px' }} />
                         <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
