@@ -32,7 +32,7 @@ const Nav = () => {
                     <Link to="work" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer'>Works</li></Link>
                     <Link to="contac" spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} ><li className='cursor-pointer'>Contact</li></Link>
                     <Link  spy={true} activeClass="border-b-4 border-[#67DB52]" smooth={true} offset={50} duration={500} > <li className='cursor-pointer'>Blog</li></Link>
-                    <li className='cursor-pointer'><a href="/Resume of Asif's.pdf" target='_blank' download>Rresume </a></li>
+                    <li className='cursor-pointer'><a href="/Resume of Asif.pdf" target='_blank' download>Rresume </a></li>
                 </ul>
             </div>
         </div>

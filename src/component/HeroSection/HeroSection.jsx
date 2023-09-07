@@ -5,6 +5,7 @@ import { FaDownload,FaGithub,FaLinkedin,FaFacebook,FaTwitter } from 'react-icons
 
 const HeroSection = () => {
     return (
+    
         <div className='bgImg mt-12' id='home'>
             <div className="text-white px-5 flex flex-col ms:mt-5 md:mt-auto sm:h-[100%] md:h-[80%] lg:h-full justify-end">
             <div>
