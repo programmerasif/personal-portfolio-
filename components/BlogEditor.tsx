@@ -58,9 +58,9 @@ const BlogEditor = () => {
             content,
             coverImage
         };
-
+// https://portfolio-backend-theta-sepia.vercel.app/
         try {
-            const response = await fetch("https://portfolio-backend-tawny-gamma.vercel.app/api/blogs", {
+            const response = await fetch("https://portfolio-backend-theta-sepia.vercel.app/api/blogs", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -70,6 +70,12 @@ const BlogEditor = () => {
     
             if (!response.ok) {
                 throw new Error("Failed to create blog");
+                
+            }
+            if (response.ok) {
+                setCoverImageName(null),
+                setContent('')
+                
             }
     
             const result = await response.json();

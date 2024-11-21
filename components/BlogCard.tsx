@@ -14,7 +14,7 @@ export async function BlogCard() {
     return (
         <section id="blog" className="py-20">
             <h1 className="heading">
-                Insights & Innovations from
+            Insights from
                 <span className="text-purple"> My Tech Journey</span>
             </h1>
 
@@ -24,8 +24,8 @@ export async function BlogCard() {
                         <FollowerPointerCard
                             title={
                                 <TitleComponent
-                                    title={'Saikat Roy Chandan'}
-                                    avatar={`/IMG_20240315_180753.jpg`}
+                                    title={'Asif Khan'}
+                                    avatar={`/me.png`}
                                 />
                             }
                         >
