@@ -131,21 +131,21 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "During his three-month internship, Saikot showcased impressive skills in frontend development using Next.js and React.js, as well as backend development with Express.js. He consistently delivered robust solutions, demonstrating a strong understanding of both frontend and backend technologies. Saikot's ability to work effectively across the stack and his dedication to learning and improving make him a promising developer with a well-rounded skill set.",
-    name: "Saurov Paul",
-    title: "Chief Technology Officer at Unicorniz Innovation",
-    img: "https://i.ibb.co/S3b16vW/Capture.png",
+      "Asif played a pivotal role as a React.js frontend developer in our part-time project, bringing an exceptional blend of enthusiasm, technical prowess, and problem-solving ability. From the moment he joined, Asif demonstrated an impressive capacity to quickly grasp our requirements and translate them into seamless, functional solutions. His attention to detail and commitment to delivering polished, high-quality work consistently exceeded our expectations. Beyond his technical skills, Asif's positive and collaborative attitude fostered a productive and enjoyable working environment. He wasn't just a contributor but a true partner in the project’s success, inspiring confidence and driving the team toward its goals.",
+    name: "Assadul Jaman Rocky",
+    title: "Chief Technology Officer at Remote Job BD",
+    img: "https://i.ibb.co.com/GPKh9hw/im.jpg",
   },
   {
     quote:
-      "Saikot really impressed us as our frontend developer using React.js. He consistently delivered top-notch code and handled challenges with ease. Saikot's professionalism, technical skills, and teamwork made him a fantastic addition to our frontend development team.",
-    name: "Asif Khan",
+      "Asif was an indispensable part of our project, showcasing remarkable skill and dedication as a React.js frontend developer. His ability to understand our vision and deliver user-friendly, polished solutions made a significant impact on the project’s success. Asif's proactive approach, attention to detail, and unwavering commitment to excellence set him apart. Beyond his technical expertise, his positive demeanor and team-oriented mindset created a collaborative and motivating work environment. Asif's contributions went beyond expectations, making him a key driver in helping us achieve our goals seamlessly and efficiently.",
+    name: "Sourav Halder",
     title: "Full Stack Developer at MN Tech",
-    img: "https://i.ibb.co/HB2jLpY/420515154-1146831266355051-7796328848477122947-n.jpg",
+    img: "https://i.ibb.co.com/zZzby74/unnamed.jpg",
   },
   {
     quote:
-      "Saikot was a great asset to our part-time project as a frontend developer using React.js. His enthusiasm and skills were impressive, and he quickly understood what we needed. Saikot's work was polished and he always aimed for the best. His positive attitude made working with him enjoyable and helped our project succeed.",
+      "Asif was an indispensable part of our project, showcasing remarkable skill and dedication as a React.js frontend developer. His ability to understand our vision and deliver user-friendly, polished solutions made a significant impact on the project’s success. Asif's proactive approach, attention to detail, and unwavering commitment to excellence set him apart. Beyond his technical expertise, his positive demeanor and team-oriented mindset created a collaborative and motivating work environment. Asif's contributions went beyond expectations, making him a key driver in helping us achieve our goals seamlessly and efficiently.",
     name: "Mashrafi Ahnam Safin",
     title: "Full Stack Developer at Hygwell",
     img: "https://i.ibb.co/GVZ7K0J/420486634-383375451012724-1137638877257986707-n.jpg",

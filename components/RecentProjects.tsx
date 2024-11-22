@@ -5,31 +5,45 @@ import Image from "next/image";
 import { IProject } from "@/types";
 
 const RecentProjects = async () => {
-
-  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/projects`, {
-    cache: 'no-store',
-  });
+  const response = await fetch(
+    `https://portfolio-backend-theta-sepia.vercel.app/api/projects`,
+    {
+      cache: "no-store",
+    }
+  );
 
   const projects = await response.json();
   console.log(projects);
-  
 
   return (
     <div className="py-10" id="projects">
       <h1 className="heading">
-      A Curated List of{" "}
-        <span className="text-purple">Recent projects</span>
+        A Curated List of <span className="text-purple">Recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }: IProject) => (
-          <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
+          <div
+            key={id}
+            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+          >
             <PinContainer title={link} href={title}>
               <Link href={link}>
                 <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                   <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                    <Image width={1080} height={720} src="/bg.png" alt="bg.img" />
+                    <Image
+                      width={1080}
+                      height={720}
+                      src="/bg.png"
+                      alt="bg.img"
+                    />
                   </div>
-                  <Image width={1080} height={720} src={img} alt="cover" className="z-10 absolute bottom-0" />
+                  <Image
+                    width={1080}
+                    height={720}
+                    src={img}
+                    alt="cover"
+                    className="z-10 absolute bottom-0"
+                  />
                 </div>
                 <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                   {title}
@@ -41,15 +55,29 @@ const RecentProjects = async () => {
                 <div className="flex items-center justify-between mt-7 mb-3">
                   <div className="flex items-center">
                     {iconLists.map((icon, index) => (
-                      <div key={icon} className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                        style={{ transform: `translateX(-${5 * index * 2}px)` }}>
-                        <Image width={1080} height={720} src={icon} alt={icon} className="p-2" />
+                      <div
+                        key={icon}
+                        className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                        style={{ transform: `translateX(-${5 * index * 2}px)` }}
+                      >
+                        <Image
+                          width={1080}
+                          height={720}
+                          src={icon}
+                          alt={icon}
+                          className="p-2"
+                        />
                       </div>
                     ))}
                   </div>
 
-                  <Link href={link} className="flex justify-center items-center">
-                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">Check Live Site</p>
+                  <Link
+                    href={link}
+                    className="flex justify-center items-center"
+                  >
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      Check Live Site
+                    </p>
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </Link>
                 </div>

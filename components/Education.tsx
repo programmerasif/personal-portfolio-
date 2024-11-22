@@ -12,7 +12,7 @@ const items = [
     {
         id: '2',
         url: 'https://i.ibb.co.com/2NYt23B/school-building2.jpg',
-        title: 'Govt. Barishal College',
+        title: 'Amrita Lal College',
         description: 'Higher School Certificate',
         yearsAttended: '2018 - 2020',
         certificate: 'HSC',
@@ -21,9 +21,9 @@ const items = [
         id: '3',
         url: 'https://i.ibb.co.com/3c8tyKb/school-building3.jpg',
         title: 'Govt. Brojomohon College (NU)',
-        description: 'Bachelor of Accounting',
+        description: 'Bachelor of Arts',
         yearsAttended: '2021 - 2026',
-        certificate: 'BBA',
+        certificate: 'BA',
     },
 ];
 
@@ -32,8 +32,8 @@ function Education() {
     return (
         <section id='education'>
             <h1 className="heading">
-                Academic Institutions
-                <span className="text-purple"> & Years of Study</span>
+            Educational Institutions 
+                <span className="text-purple"> & Study Periods</span>
             </h1>
 
             <div className="group flex max-md:flex-col justify-center gap-2 w-[85%] mx-auto mb-10 my-20">

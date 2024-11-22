@@ -1,23 +1,23 @@
-'use client'
-import BlogEditor from "@/components/BlogEditor"
+"use client";
+import BlogEditor from "@/components/BlogEditor";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-
 const DashboardPage = () => {
   const router = useRouter();
-  const user = { name: "Saikat Roy" };
+  const user = { name: "Asif Khan" };
 
   const handleLogout = () => {
     localStorage.removeItem("userEmail");
     localStorage.removeItem("userRole");
 
-    document.cookie = "userEmail=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    document.cookie = "userRole=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    document.cookie =
+      "userEmail=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    document.cookie =
+      "userRole=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
     router.push("/");
   };
-
 
   return (
     <div>
@@ -25,8 +25,13 @@ const DashboardPage = () => {
       {user && (
         <div className="p-8">
           <div className="w-16 h-16">
-            <Image src='/public/dj-programmer.jpg' width={1080} height={720} alt="saikat-roy" />
-            {/* <img src='/public/blog-thumbnail.webp'  alt="saikat-roy" /> */}
+            <Image
+              src="/public/dj-programmer.jpg"
+              width={1080}
+              height={720}
+              alt="Asif-Khan"
+            />
+           
           </div>
           <h1 className="text-2xl font-bold">{user.name}</h1>
           <button
@@ -37,9 +42,8 @@ const DashboardPage = () => {
           </button>
         </div>
       )}
-
     </div>
-  )
-}
+  );
+};
 
-export default DashboardPage
+export default DashboardPage;
